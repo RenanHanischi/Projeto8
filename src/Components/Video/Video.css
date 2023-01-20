@@ -1,0 +1,7 @@
+.Video-card{
+    display: flex;
+    background-color: #149494;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}

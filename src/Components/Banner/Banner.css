@@ -1,0 +1,30 @@
+
+.Banner-card{
+    
+    background-image: url(/images/exemplo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    /*MUDAR ESSA HEIGHT, não consegui deixar %*/
+    
+
+}
+.Banner-item{
+   padding: 0.8rem;
+   margin: 0.3rem;
+   background-color: #d36f42;
+   border-radius: 0.3rem;
+}
+
+p{
+ 
+    font-weight: 800;
+    color: #111111;
+    font-size: 1.5rem;
+
+}
