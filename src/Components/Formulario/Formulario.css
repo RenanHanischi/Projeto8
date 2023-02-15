@@ -1,0 +1,27 @@
+.formulario {
+    background-color: #149494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-card {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 40%;
+    padding: 20px;
+}
+
+.formulario-card label,
+button {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input,
+textarea {
+    width: 100%;
+}

@@ -4,7 +4,7 @@ section {
 
 .Banner-card {
 
-    background-image: url(/images/exemplo.jpeg);
+    background-image: url(/images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -12,54 +12,109 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600px;
-    /*MUDAR ESSA HEIGHT, não consegui deixar %
-    tem que alterar depois o media query*/
-
-
-
+    height: auto;
 }
 
 .Banner-item {
     padding: 0.8rem;
     margin: 0.3rem;
-    background-color: #111111;
     border-radius: 0.3rem;
 }
-
+.Banner-titulo{
+    font-size: 1rem;
+    font-weight: bold;
+}
 p {
-
-    font-weight: 800;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
-
-
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-row a{
+    padding: 5px;
 }
 
-@media (max-width: 599px) {
-    .Banner-titulo {
+@media (min-width: 280px) {
+    .Banner-card {
+        height: 200px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 316px) {
+    .Banner-card {
+        height: 220px;
+    }
+}
+@media (min-width: 356px) {
+    .Banner-card {
+        height: 256px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 385px) {
+    .Banner-card {
+        height: 285px;
+    }
+}
+@media (min-width: 446px) {
+    .Banner-card {
+        height: 320px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+@media (min-width: 504px) {
+    .Banner-card {
+        height: 380px;
+    }
+    .Banner-titulo{
         font-size: 1.5rem;
     }
-
 }
-
-@media (min-width: 837px) {
-    .Banner-titulo {
-        font-size: 2.5rem;
-    }
-
+@media (min-width: 600px) {
     .Banner-card {
-        height: 800px;
+        height: 450px;
+    }
+    p {
+        font-size: 1rem;
     }
 }
-
-@media (min-width:1100px) {
+@media (min-width: 700px) {
     .Banner-card {
-        height: 1000px;
+        height: 500px;
     }
 }
-
-@media (min-width:1393px) {
+@media (min-width: 800px) {
     .Banner-card {
-        height: 1100px;
+        height: 600px;
+    }
+}
+@media (min-width: 950px) {
+    .Banner-card {
+        height: 720px;
+    }
+}
+@media (min-width: 1150px) {
+    .Banner-card {
+        height: 850px;
+    }
+}
+@media (min-width: 1350px) {
+    .Banner-card {
+        height: 980px;
+    }
+}
+@media (min-width: 1550px) {
+    .Banner-card {
+        height: 1180px;
     }
 }
